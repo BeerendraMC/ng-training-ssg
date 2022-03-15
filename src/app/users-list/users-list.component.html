@@ -1,0 +1,16 @@
+<p>users-list works!</p>
+
+<table>
+  <tr>
+    <th>Id</th>
+    <th>Name</th>
+    <th>Phone</th>
+    <th>Email</th>
+  </tr>
+  <tr *ngFor="let user of users">
+    <td>{{ user.id }}</td>
+    <td>{{ user.name }}</td>
+    <td>{{ user.phone }}</td>
+    <td>{{ user.email }}</td>
+  </tr>
+</table>
