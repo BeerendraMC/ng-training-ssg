@@ -25,4 +25,14 @@ export class UsersListComponent implements OnInit {
       }
     );
   }
+
+  onDeleteClick(id: number): void {
+    this.userService.deleteUser(id).subscribe(
+      () => {
+        alert('User deleted successfully!');
+        this.setUsers();
+      },
+      (err) => console.log
+    );
+  }
 }

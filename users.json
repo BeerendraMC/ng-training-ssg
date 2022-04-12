@@ -2,27 +2,15 @@
   "users": [
     {
       "id": 1,
-      "name": "Navin",
+      "name": "Navin Kumar",
       "phone": "834957426929",
       "email": "navin@gmail.com"
-    },
-    {
-      "id": 2,
-      "name": "Manju",
-      "phone": "8736736353",
-      "email": "manju@gmail.com"
     },
     {
       "name": "Beerendra MC",
       "phone": 19844989276,
       "email": "beerendramc@gmail.com",
       "id": 3
-    },
-    {
-      "name": "Mohan",
-      "phone": 465345,
-      "email": "mohan@gmail.com",
-      "id": 4
     }
   ]
 }

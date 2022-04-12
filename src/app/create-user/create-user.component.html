@@ -1,4 +1,4 @@
-<h1 style="text-align: center">Create User</h1>
+<h1 style="text-align: center">{{ isEdit ? "Edit User" : "Create User" }}</h1>
 <form class="form-flex" (ngSubmit)="onFormSubmit()">
   <span>
     <label>Name: </label>

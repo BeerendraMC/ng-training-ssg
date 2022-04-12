@@ -10,6 +10,7 @@ const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'users-list', component: UsersListComponent },
   { path: 'create-user', component: CreateUserComponent },
+  { path: 'edit-user/:id', component: CreateUserComponent },
   { path: '**', component: PageNotFoundComponent },
 ];
 
